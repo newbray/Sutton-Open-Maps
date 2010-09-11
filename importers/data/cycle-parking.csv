@@ -1,0 +1,299 @@
+ID,lat,Spaces,x,description,y:location_lat,y:location_lon,y,CycleStandLocations,y:row,northing,title,lng,easting
+1,51.389245241052,14,529383,"14 cycle parking spaces"," "," ",167216,"Beddington Lane Tram stop",2,167216,"Beddington Lane Tram stop",-0.14189388014536,529383
+2,51.385563930469,12,530312,"12 cycle parking spaces"," "," ",166830,"Therapia Lane Tram stop",3,166830,"Therapia Lane Tram stop",-0.12869152781394,530312
+3,51.38520574734,10,530228,"10 cycle parking spaces"," "," ",166788,"Junction of Coomber Road &amp;#92;/ Ampere Way",4,166788,"Junction of Coomber Road &amp;#92;/ Ampere Way",-0.12991336786032,530228
+4,51.377100700534,6,530184,"6 cycle parking spaces"," "," ",165885,Asda,5,165885,Asda,-0.13087594831764,530184
+5,51.373284618211,2,529619,"2 cycle parking spaces"," "," ",165446,"Beddington Park South Car Park",6,165446,"Beddington Park South Car Park",-0.13914930649291,529619
+6,51.371562616841,10,530115,"10 cycle parking spaces"," "," ",165267,"Beddington Village Hall",7,165267,"Beddington Village Hall",-0.132092853635,530115
+7,51.370192903852,2,528313,"2 cycle parking spaces"," "," ",165069,"8 Butter Hill",8,165069,"8 Butter Hill",-0.15803799901183,528313
+8,51.368553171841,4,528530,"4 cycle parking spaces"," "," ",164892,"Junction of Butter Hill &amp;#92;/ London Road",9,164892,"Junction of Butter Hill &amp;#92;/ London Road",-0.15498626853212,528530
+9,51.367851034173,2,530115,"2 cycle parking spaces"," "," ",164854,"202 Croydon Road",10,164854,"202 Croydon Road",-0.13224389395772,530115
+10,51.367796254513,2,530158,"2 cycle parking spaces"," "," ",164849,"178 Croydon Road",11,164849,"178 Croydon Road",-0.1316283715759,530158
+11,51.367516287129,2,530164,"2 cycle parking spaces"," "," ",164818,"7 The Broadway",12,164818,"7 The Broadway",-0.13155356973839,530164
+12,51.367509645248,2,530193,"2 cycle parking spaces"," "," ",164818,"1 The Broadway",13,164818,"1 The Broadway",-0.13113721965453,530193
+13,51.366957440566,4,530132,"4 cycle parking spaces"," "," ",164755,"Beddington Library",14,164755,"Beddington Library",-0.13203603049807,530132
+14,51.366912277188,4,530133,"4 cycle parking spaces"," "," ",164750,"20 Plough Lane",15,164750,"20 Plough Lane",-0.13202350230367,530133
+15,51.361528258394,2,529586,"2 cycle parking spaces"," "," ",164137,"54 Demesne Road",16,164137,"54 Demesne Road",-0.14009985653232,529586
+16,51.359519707683,4,529645,"4 cycle parking spaces"," "," ",163915,"144 Stafford Road",17,163915,"144 Stafford Road",-0.13933375852879,529645
+17,51.359538686477,4,529680,"4 cycle parking spaces"," "," ",163918,"160 Stafford Road",18,163918,"160 Stafford Road",-0.13883025950836,529680
+18,51.359496395073,4,529629,"4 cycle parking spaces"," "," ",163912,"140 Stafford Road",19,163912,"140 Stafford Road",-0.1395645224086,529629
+19,51.358642925244,1,529312,"1 cycle parking spaces"," "," ",163809,"70-72 Stafford Road",20,163809,"70-72 Stafford Road",-0.14415230900634,529312
+20,51.358517562646,1,529310,"1 cycle parking spaces"," "," ",163795,"53 Stafford Road",21,163795,"53 Stafford Road",-0.14418610252886,529310
+21,51.358492302002,2,529263,"2 cycle parking spaces"," "," ",163791,"60 Stafford Road",22,163791,"60 Stafford Road",-0.14486220210028,529263
+22,51.360360710971,10,528871,"10 cycle parking spaces"," "," ",163989,"Wallington Station",23,163989,"Wallington Station",-0.15041738217853,528871
+23,51.359856921769,2,528834.82,"2 cycle parking spaces"," "," ",163932.03,"Lidl, Beddington Gardens",24,163932.03,"Lidl, Beddington Gardens",-0.15095735793354,528834.82
+24,51.360161244235,4,528958,"4 cycle parking spaces"," "," ",163969,"23 Ross Parade",25,163969,"23 Ross Parade",-0.14917575894581,528958
+25,51.35957966866,2,528907,"2 cycle parking spaces"," "," ",163903,"36 Woodcote Road",26,163903,"36 Woodcote Road",-0.14993175069861,528907
+26,51.358248603811,2,528951,"2 cycle parking spaces"," "," ",163756,"64 Woodcote Road",27,163756,"64 Woodcote Road",-0.14935339558931,528951
+27,51.358248603811,2,528951,"2 cycle parking spaces"," "," ",163756,"84 Woodcote Road",28,163756,"84 Woodcote Road",-0.14935339558931,528951
+28,51.358248603811,2,528951,"2 cycle parking spaces"," "," ",163756,"108 Woodcote Road",29,163756,"108 Woodcote Road",-0.14935339558931,528951
+29,51.358248603811,2,528951,"2 cycle parking spaces"," "," ",163756,"Wallington Square",30,163756,"Wallington Square",-0.14935339558931,528951
+30,51.358120683259,4,528881,"4 cycle parking spaces"," "," ",163740,"Shotfield North Car Park",31,163740,"Shotfield North Car Park",-0.15036397861512,528881
+31,51.358023264291,6,528835,"6 cycle parking spaces"," "," ",163728,"Wallington Library Entrance",32,163728,"Wallington Library Entrance",-0.1510286107216,528835
+32,51.357919648581,2,528856,"2 cycle parking spaces"," "," ",163717,"Wallington Library Cafe",33,163717,"Wallington Library Cafe",-0.15073115603791,528856
+33,51.357490161584,4,528808,"4 cycle parking spaces"," "," ",163668,"Shotfield South Car Park",34,163668,"Shotfield South Car Park",-0.15143787873657,528808
+34,51.357107482962,4,528950,"4 cycle parking spaces"," "," ",163629,"Woodcote Road junction  with  Stanley Park Road",35,163629,"Woodcote Road junction  with  Stanley Park Road",-0.14941374761276,528950
+35,51.357600320283,4,528996,"4 cycle parking spaces"," "," ",163685,"3-4 South Parade",36,163685,"3-4 South Parade",-0.14873318391705,528996
+36,51.357600320283,4,528996,"4 cycle parking spaces"," "," ",163685,"3 Stafford Road",37,163685,"3 Stafford Road",-0.14873318391705,528996
+37,51.357600320283,2,528996,"2 cycle parking spaces"," "," ",163685,"Stafford Road outside Sainsbury's",38,163685,"Stafford Road outside Sainsbury's",-0.14873318391705,528996
+38,51.358034238169,14,529064,"14 cycle parking spaces"," "," ",163735,"Stafford Road Sainsbury's",39,163735,"Stafford Road Sainsbury's",-0.14773899072242,529064
+39,51.35798884928,8,529066,"8 cycle parking spaces"," "," ",163730,"Stafford Road Sainsbury's",40,163730,"Stafford Road Sainsbury's",-0.14771209518792,529066
+40,51.353295026595,6,529985,"6 cycle parking spaces"," "," ",163231,"Mollison Drive",41,163231,"Mollison Drive",-0.13470295848265,529985
+41,51.35324513263,4,530046,"4 cycle parking spaces"," "," ",163227,"Manor GP practice",42,163227,"Manor GP practice",-0.13382891808912,530046
+42,51.353248401967,18,530071,"18 cycle parking spaces"," "," ",163228,"Phoenix Leisure Centre",43,163228,"Phoenix Leisure Centre",-0.13346974140265,530071
+43,51.357046929099,13,530789,"13 cycle parking spaces"," "," ",163669,"Surrey Health &amp; Rackets Club",44,163669,"Surrey Health &amp; Rackets Club",-0.12300274539756,530789
+44,51.365789816165,2,526708,"2 cycle parking spaces"," "," ",164539,"East of Westmead Road &amp;#92;/ The Crescent junction",45,164539,"East of Westmead Road &amp;#92;/ The Crescent junction",-0.18127148891868,526708
+45,51.365816554668,2,526709,"2 cycle parking spaces"," "," ",164542,"84 Westmead Road",46,164542,"84 Westmead Road",-0.18125606398705,526709
+46,51.365834306031,2,526710,"2 cycle parking spaces"," "," ",164544,"82 Westmead Road",47,164544,"82 Westmead Road",-0.18124099509663,526710
+47,51.365852057392,2,526711,"2 cycle parking spaces"," "," ",164546,"75 Westmead Road",48,164546,"75 Westmead Road",-0.18122592619442,526711
+48,51.365869808751,2,526712,"2 cycle parking spaces"," "," ",164548,"114 Westmead Road",49,164548,"114 Westmead Road",-0.18121085728044,526712
+49,51.365887560108,2,526713,"2 cycle parking spaces"," "," ",164550,"120 Westmead Road",50,164550,"120 Westmead Road",-0.18119578835468,526713
+50,51.365905311463,4,526714,"4 cycle parking spaces"," "," ",164552,"Westmead Road &amp;#92;/ Cowper Avenue junction",51,164552,"Westmead Road &amp;#92;/ Cowper Avenue junction",-0.18118071941713,526714
+51,51.36613075372,4,527354,"4 cycle parking spaces"," "," ",164593,"1 Westmead Corner",52,164593,"1 Westmead Corner",-0.17197773294238,527354
+52,51.366217263698,4,527369,"4 cycle parking spaces"," "," ",164603,"2 Westmead Corner",53,164603,"2 Westmead Corner",-0.17175880182698,527369
+53,51.366401286575,2,527390,"2 cycle parking spaces"," "," ",164624,"6 Westmead Corner",54,164624,"6 Westmead Corner",-0.17144979101188,527390
+54,51.365840853964,2,528164,"2 cycle parking spaces"," "," ",164581,"29 Beacon Grove",55,164581,"29 Beacon Grove",-0.1603531106628,528164
+55,51.365768506762,2,528166,"2 cycle parking spaces"," "," ",164573,"31 Beacon Grove",56,164573,"31 Beacon Grove",-0.16032727866151,528166
+56,51.365632348409,2,528172,"2 cycle parking spaces"," "," ",164558,"33 Beacon Grove",57,164558,"33 Beacon Grove",-0.16024654164193,528172
+57,51.365518222655,2,528160,"2 cycle parking spaces"," "," ",164545,"31-33 High Street",58,164545,"31-33 High Street",-0.16042350191456,528160
+58,51.365484979929,2,528148,"2 cycle parking spaces"," "," ",164541,"31-33 High Street",59,164541,"31-33 High Street",-0.16059722045388,528148
+59,51.365488135917,2,528134,"2 cycle parking spaces"," "," ",164541,"27-29 High Street",60,164541,"27-29 High Street",-0.16079821151188,528134
+60,51.365178548341,2,528112,"2 cycle parking spaces"," "," ",164506,"46 High Street",61,164506,"46 High Street",-0.16112665437186,528112
+61,51.357469552502,2,527584,"2 cycle parking spaces"," "," ",163635,"1 Gordon Road",62,163635,"1 Gordon Road",-0.1690190538058,527584
+62,51.357472031734,2,527613,"2 cycle parking spaces"," "," ",163636,"15 Gordon Road",63,163636,"15 Gordon Road",-0.16860242757536,527613
+63,51.357444834979,2,527574,"2 cycle parking spaces"," "," ",163632,"6 Station Parade",64,163632,"6 Station Parade",-0.16916366941279,527574
+64,51.357493195941,4,527278,"4 cycle parking spaces"," "," ",163630,"46 Banstead Road",65,163630,"46 Banstead Road",-0.173413193759,527278
+65,51.357551852332,2,527297,"2 cycle parking spaces"," "," ",163637,"67 Banstead Road",66,163637,"67 Banstead Road",-0.17313796297717,527297
+66,51.357294360263,2,527283,"2 cycle parking spaces"," "," ",163608,"75 Banstead Road",67,163608,"75 Banstead Road",-0.17334928815875,527283
+67,51.357254125211,2,527262,"2 cycle parking spaces"," "," ",163603,"52 Banstead Road",68,163603,"52 Banstead Road",-0.17365251031904,527262
+68,51.357214819344,2,527277,"2 cycle parking spaces"," "," ",163599,"79 Banstead Road",69,163599,"79 Banstead Road",-0.17343862972712,527277
+69,51.357076621011,2,527252,"2 cycle parking spaces"," "," ",163583,"56 Banstead Road",70,163583,"56 Banstead Road",-0.17380319878019,527252
+70,51.356983616572,2,527266,"2 cycle parking spaces"," "," ",163573,"83 Banstead Road",71,163573,"83 Banstead Road",-0.17360581749018,527266
+71,51.356908103714,2,527242,"2 cycle parking spaces"," "," ",163564,"62 Banstead Road",72,163564,"62 Banstead Road",-0.17395352869186,527242
+72,51.356814651925,2,527258,"2 cycle parking spaces"," "," ",163554,"91 Banstead Road",73,163554,"91 Banstead Road",-0.17372744001042,527258
+73,51.356636923811,2,527249,"2 cycle parking spaces"," "," ",163534,"97 Banstead Road",74,163534,"97 Banstead Road",-0.17386377285508,527249
+74,51.356860418961,1,527495,"1 cycle parking spaces"," "," ",163565,"3 Beeches Avenue",75,163565,"3 Beeches Avenue",-0.17032163250115,527495
+75,51.356716401199,4,527496,"4 cycle parking spaces"," "," ",163549,"8 Beeches Avenue",76,163549,"8 Beeches Avenue",-0.17031300794762,527496
+76,51.354857410006,2,528050,"2 cycle parking spaces"," "," ",163356,"140 Stanley Park Road",77,163356,"140 Stanley Park Road",-0.1624304153863,528050
+77,51.354685999303,2,528013,"2 cycle parking spaces"," "," ",163336,"154 Stanley Park Road",78,163336,"154 Stanley Park Road",-0.16296867364509,528013
+78,51.354694517004,2,528055,"2 cycle parking spaces"," "," ",163338,"101 Stanley Park Road",79,163338,"101 Stanley Park Road",-0.16236512243648,528055
+79,51.325838988657,4,528644,"4 cycle parking spaces"," "," ",160142,"1 Hillcrest Parade",80,160142,"1 Hillcrest Parade",-0.15506479730856,528644
+80,51.386480436305,1,524626,"1 cycle parking spaces"," "," ",166790,"139 Epsom Road",81,166790,"139 Epsom Road",-0.2103738909519,524626
+81,51.386153611931,2,524600,"2 cycle parking spaces"," "," ",166753,"151 Epsom Road",82,166753,"151 Epsom Road",-0.21076031111341,524600
+82,51.386004118779,2,524585,"2 cycle parking spaces"," "," ",166736,"155 Epsom Road",83,166736,"155 Epsom Road",-0.21098172002029,524585
+83,51.385533059496,2,524520,"2 cycle parking spaces"," "," ",166682,"16 Stonecot Hill",84,166682,"16 Stonecot Hill",-0.21193425275589,524520
+84,51.385289745884,2,524523,"2 cycle parking spaces"," "," ",166655,"5 Stonecot Hill",85,166655,"5 Stonecot Hill",-0.21190062142071,524523
+85,51.38503130563,2,524472,"2 cycle parking spaces"," "," ",166625,"38 Stonecot Hill",86,166625,"38 Stonecot Hill",-0.212643644755,524472
+86,51.385392282726,12,522772,"12 cycle parking spaces"," "," ",166624,"The Hamptons",87,166624,"The Hamptons",-0.23706140390616,522772
+87,51.384873262761,2,524496,"2 cycle parking spaces"," "," ",166608,"23 Stonecot Hill",88,166608,"23 Stonecot Hill",-0.21230488577519,524496
+88,51.384510482612,2,524470,"2 cycle parking spaces"," "," ",166567,"33 Stonecot Hill",89,166567,"33 Stonecot Hill",-0.21269267905888,524470
+89,51.38420425336,2,524432,"2 cycle parking spaces"," "," ",166532,"47 Stonecot Hill",90,166532,"47 Stonecot Hill",-0.21325071914112,524432
+90,51.383627965306,2,524396,"2 cycle parking spaces"," "," ",166467,"71 Stonecot Hill",91,166467,"71 Stonecot Hill",-0.21379052382051,524396
+91,51.383474580897,4,524972,"4 cycle parking spaces"," "," ",166464,"393 Sutton Common Road",92,166464,"393 Sutton Common Road",-0.20551875025506,524972
+92,51.383437032754,2,524365,"2 cycle parking spaces"," "," ",166445,"79 Stonecot Hill",93,166445,"79 Stonecot Hill",-0.21424346061695,524365
+93,51.383334272163,2,524997,"2 cycle parking spaces"," "," ",166449,"384 Sutton Common Road",94,166449,"384 Sutton Common Road",-0.20516496207524,524997
+94,51.383137397979,4,525034,"4 cycle parking spaces"," "," ",166428,"368 Sutton Common Road",95,166428,"368 Sutton Common Road",-0.20464093753475,525034
+95,51.383007614798,4,525052,"4 cycle parking spaces"," "," ",166414,"362 Sutton Common Road",96,166414,"362 Sutton Common Road",-0.20438733924441,525052
+96,51.380099278332,2,525240,"2 cycle parking spaces"," "," ",166095,"256 Sutton Common Road",97,166095,"256 Sutton Common Road",-0.20179958965374,525240
+97,51.380512582488,4,523268,"4 cycle parking spaces"," "," ",166093,"Dorchester Road rec ground",98,166093,"Dorchester Road rec ground",-0.2301213210459,523268
+98,51.380050011621,2,524113,"2 cycle parking spaces"," "," ",166062,"836 London Road",99,166062,"836 London Road",-0.21799652411085,524113
+99,51.379905777975,4,524115,"4 cycle parking spaces"," "," ",166046,"Hamilton Avenue &amp;#92;/ London Road junction",100,166046,"Hamilton Avenue &amp;#92;/ London Road junction",-0.21797338582716,524115
+100,51.37970562291,4,524085,"4 cycle parking spaces"," "," ",166023,"830 London Road",101,166023,"830 London Road",-0.21841225602298,524085
+101,51.379253745272,6,523973,"6 cycle parking spaces"," "," ",165970,"St Anthony's Hospital, London Road",102,165970,"St Anthony's Hospital, London Road",-0.2200392127995,523973
+102,51.37936720978,4,522330,"4 cycle parking spaces"," "," ",165943,"163 Central Road",103,165943,"163 Central Road",-0.24364432790323,522330
+103,51.37879888271,2,522465,"2 cycle parking spaces"," "," ",165883,"Caldbeck Avenue &amp;#92;/ Central Road junction",104,165883,"Caldbeck Avenue &amp;#92;/ Central Road junction",-0.24172619023343,522465
+104,51.378362892017,6,522528,"6 cycle parking spaces"," "," ",165836,"Washington Road &amp;#92;/ Central Road junction",105,165836,"Washington Road &amp;#92;/ Central Road junction",-0.24083762224108,522528
+105,51.37825055895,10,522382,"10 cycle parking spaces"," "," ",165820,Waitrose,106,165820,Waitrose,-0.24293986017693,522382
+106,51.378206293619,4,522504,"4 cycle parking spaces"," "," ",165818,"113 Central Road",107,165818,"113 Central Road",-0.24118849084154,522504
+107,51.378142880925,4,522548,"4 cycle parking spaces"," "," ",165812,"110 Central Road",108,165812,"110 Central Road",-0.24055866946874,522548
+108,51.377825733348,4,522560,"4 cycle parking spaces"," "," ",165777,"69-75 Central Road",109,165777,"69-75 Central Road",-0.24039839845552,522560
+109,51.377836804897,2,522592,"2 cycle parking spaces"," "," ",165779,"Brinckley Road &amp;#92;/ Central Road junction",110,165779,"Brinckley Road &amp;#92;/ Central Road junction",-0.2399381573707,522592
+110,51.377370600568,4,522670,"4 cycle parking spaces"," "," ",165729,"St Philips Ave &amp;#92;/ Central Road junction",111,165729,"St Philips Ave &amp;#92;/ Central Road junction",-0.23883524719027,522670
+111,51.376753843629,4,522696,"4 cycle parking spaces"," "," ",165661,"Balmoral Road &amp;#92;/ Central Road junction",112,165661,"Balmoral Road &amp;#92;/ Central Road junction",-0.2384853251566,522696
+112,51.376492705989,2,523817,"2 cycle parking spaces"," "," ",165659,"703 London Road",113,165659,"703 London Road",-0.2223878544624,523817
+113,51.376512912144,0,523848,"0 cycle parking spaces"," "," ",165662,"710 London Road",114,165662,"710 London Road",-0.22194163637983,523848
+114,51.376457680448,2,523854,"2 cycle parking spaces"," "," ",165656,"712 London Road",115,165656,"712 London Road",-0.22185756320671,523854
+115,51.376167637002,2,523824,"2 cycle parking spaces"," "," ",165623,"696 London Road",116,165623,"696 London Road",-0.22229986498274,523824
+116,51.376129290574,2,523835,"2 cycle parking spaces"," "," ",165619,"698 London Road",117,165619,"698 London Road",-0.22214329405948,523835
+117,51.373774745036,2,523628,"2 cycle parking spaces"," "," ",165352,"Lloyd Road &amp;#92;/ London Road junction",118,165352,"Lloyd Road &amp;#92;/ London Road junction",-0.2252086868634,523628
+118,51.372879056242,6,523614,"6 cycle parking spaces"," "," ",165252,"Elmcroft Community Centre, London Road",119,165252,"Elmcroft Community Centre, London Road",-0.22544447174478,523614
+119,51.372551237059,2,523551,"2 cycle parking spaces"," "," ",165214,"575 London Road",120,165214,"575 London Road",-0.22636230774203,523551
+120,51.372233779025,2,523523,"2 cycle parking spaces"," "," ",165178,"559 London Road",121,165178,"559 London Road",-0.22677686658495,523523
+121,51.372131005564,4,523541,"4 cycle parking spaces"," "," ",165167,"538 London Road",122,165167,"538 London Road",-0.2265222221771,523541
+122,51.372086861867,2,523496,"2 cycle parking spaces"," "," ",165161,"Lavender Ave &amp;#92;/ London Road junction 2",123,165161,"Lavender Ave &amp;#92;/ London Road junction 2",-0.2271704648736,523496
+123,51.371971547342,2,523489,"2 cycle parking spaces"," "," ",165148,"Lavender Ave &amp;#92;/ London Road junction 1",124,165148,"Lavender Ave &amp;#92;/ London Road junction 1",-0.22727549117625,523489
+124,51.371809340387,2,523491,"2 cycle parking spaces"," "," ",165130,"521 London Road",125,165130,"521 London Road",-0.22725302137997,523491
+125,51.371812677558,2,523517,"2 cycle parking spaces"," "," ",165131,"530 London Road",126,165131,"530 London Road",-0.22687934003362,523517
+126,51.371799402022,9,523702,"9 cycle parking spaces"," "," ",165134,"London Road - Sainsbury's",127,165134,"London Road - Sainsbury's",-0.22422188381961,523702
+127,51.371677354703,2,523478,"2 cycle parking spaces"," "," ",165115,"515 London Road",128,165115,"515 London Road",-0.22744489484059,523478
+128,51.371535729596,2,523468,"2 cycle parking spaces"," "," ",165099,"513 London Road",129,165099,"513 London Road",-0.22759403746885,523468
+129,51.371511671221,2,523496,"2 cycle parking spaces"," "," ",165097,"522 London Road",130,165097,"522 London Road",-0.2271926819102,523496
+130,51.371446942253,2,523463,"2 cycle parking spaces"," "," ",165089,"507 London Road",131,165089,"507 London Road",-0.22766930251851,523463
+131,51.371384949185,2,523376,"2 cycle parking spaces"," "," ",165080,"21 Cheam Common Road",132,165080,"21 Cheam Common Road",-0.22892164847361,523376
+132,51.371341183505,4,523412,"4 cycle parking spaces"," "," ",165076,"Cheam Common Road &amp;#92;/ London Road junction",133,165076,"Cheam Common Road &amp;#92;/ London Road junction",-0.22840611620097,523412
+133,51.371309307649,2,523476,"2 cycle parking spaces"," "," ",165074,"508 London Road",134,165074,"508 London Road",-0.22748784300956,523476
+134,51.370979165205,8,523465,"8 cycle parking spaces"," "," ",165037,"390 London Road",135,165037,"390 London Road",-0.22765863092245,523465
+135,51.370803244685,4,523406,"4 cycle parking spaces"," "," ",165016,"493 London Road",136,165016,"493 London Road",-0.22851308183981,523406
+136,51.370649239687,4,523453,"4 cycle parking spaces"," "," ",165000,"285 Malden Road",137,165000,"285 Malden Road",-0.22784377497501,523453
+137,51.370430936372,4,523465,"4 cycle parking spaces"," "," ",164976,"275 Malden Road",138,164976,"275 Malden Road",-0.22767979988403,523465
+138,51.370318144251,2,523405,"2 cycle parking spaces"," "," ",164962,"452 London Road",139,164962,"452 London Road",-0.22854617101095,523405
+139,51.370229790477,2,523398,"2 cycle parking spaces"," "," ",164952,"450 London Road",140,164952,"450 London Road",-0.22865014922751,523398
+140,51.368355306869,2,524082,"2 cycle parking spaces"," "," ",164760,"124 Church Hill Road",141,164760,"124 Church Hill Road",-0.21889591797917,524082
+141,51.36821238297,2,524078,"2 cycle parking spaces"," "," ",164744,"141 Church Hill Road",142,164744,"141 Church Hill Road",-0.21895892875534,524078
+142,51.368166608544,2,524123,"2 cycle parking spaces"," "," ",164740,"106 Church Hill Road",143,164740,"106 Church Hill Road",-0.21831422243921,524123
+143,51.368118798479,2,524095,"2 cycle parking spaces"," "," ",164734,"135 Church Hill Road",144,164734,"135 Church Hill Road",-0.21871833340021,524095
+144,51.367925697938,2,524115,"2 cycle parking spaces"," "," ",164713,"103 Priory Road",145,164713,"103 Priory Road",-0.21843850262815,524115
+145,51.367873336099,4,524149,"4 cycle parking spaces"," "," ",164708,"131 Church Hill Road",146,164708,"131 Church Hill Road",-0.21795208459133,524149
+146,51.374548303217,5,524940,"5 cycle parking spaces"," "," ",165470,"Tesco, Oldfields Road",147,165470,"Tesco, Oldfields Road",-0.20632759061759,524940
+147,51.374548303217,22,524940,"22 cycle parking spaces"," "," ",165470,"Tesco, Oldfields Road",148,165470,"Tesco, Oldfields Road",-0.20632759061759,524940
+148,51.367885631219,4,524175,"4 cycle parking spaces"," "," ",164710,"100 Church Hill Road",149,164710,"100 Church Hill Road",-0.21757808639018,524175
+149,51.359018189484,2,526040,"2 cycle parking spaces"," "," ",163769,"2 Brighton Road",150,163769,"2 Brighton Road",-0.19113451061983,526040
+150,51.35889236873,2,526040,"2 cycle parking spaces"," "," ",163755,"5 Brighton Road",151,163755,"5 Brighton Road",-0.1911394671158,526040
+151,51.359248657655,4,524258,"4 cycle parking spaces"," "," ",163751,"58 The Broadway",152,163751,"58 The Broadway",-0.21672120265492,524258
+152,51.358747686858,2,526044,"2 cycle parking spaces"," "," ",163739,"7 Brighton Road",153,163739,"7 Brighton Road",-0.19108771307626,526044
+153,51.358697753688,2,526026,"2 cycle parking spaces"," "," ",163733,"6 Brighton Road",154,163733,"6 Brighton Road",-0.19134822057863,526026
+154,51.358300987032,2,526032,"2 cycle parking spaces"," "," ",163689,"12 Brighton Road",155,163689,"12 Brighton Road",-0.19127766898214,526032
+155,51.358602226024,2,524255,"2 cycle parking spaces"," "," ",163679,"27 The Broadway",156,163679,"27 The Broadway",-0.21678939692198,524255
+156,51.3586434473,8,524272,"8 cycle parking spaces"," "," ",163684,"26 The Broadway",157,163684,"26 The Broadway",-0.21654362010385,524272
+157,51.358197029246,4,526055,"4 cycle parking spaces"," "," ",163678,"29 Brighton Road",158,163678,"29 Brighton Road",-0.19095141017617,526055
+158,51.358138774138,2,526034,"2 cycle parking spaces"," "," ",163671,"14 Brighton Road",159,163671,"14 Brighton Road",-0.19125533204281,526034
+159,51.358430374187,2,524260,"2 cycle parking spaces"," "," ",163660,"25 The Broadway",160,163660,"25 The Broadway",-0.2167242543857,524260
+160,51.357829342326,2,524296,"2 cycle parking spaces"," "," ",163594,"4 Broadway",161,163594,"4 Broadway",-0.21623052547669,524296
+161,51.357511481673,2,524270,"2 cycle parking spaces"," "," ",163558,"Station Way &amp;#92;/ Ewell Road junction 1",162,163558,"Station Way &amp;#92;/ Ewell Road junction 1",-0.21661630911165,524270
+162,51.357474221032,2,524276,"2 cycle parking spaces"," "," ",163554,"Station Way &amp;#92;/ Ewell Road junction  2",163,163554,"Station Way &amp;#92;/ Ewell Road junction  2",-0.21653157857856,524276
+163,51.356735983616,4,525997,"4 cycle parking spaces"," "," ",163514,"Brighton Road car park",164,163514,"Brighton Road car park",-0.19184200661475,525997
+164,51.356794925806,4,524300,"4 cycle parking spaces"," "," ",163479,"37 Station Way",165,163479,"37 Station Way",-0.21621325512339,524300
+165,51.355346059517,10,524432,"10 cycle parking spaces"," "," ",163321,"Cheam Station",166,163321,"Cheam Station",-0.21437371294,524432
+166,51.354834891222,2,524468,"2 cycle parking spaces"," "," ",163265,"30 Upper Mulgrave Road",167,163265,"30 Upper Mulgrave Road",-0.21387655187598,524468
+167,51.354753535446,2,524388,"2 cycle parking spaces"," "," ",163254,"17 Upper Mulgrave Road",168,163254,"17 Upper Mulgrave Road",-0.21502868259167,524388
+168,51.348418397337,2,525692,"2 cycle parking spaces"," "," ",162581,"Hulverston Close",169,162581,"Hulverston Close",-0.1965492727613,525692
+169,51.346931339764,8,525914,"8 cycle parking spaces"," "," ",162421,"Sutton Hospital",170,162421,"Sutton Hospital",-0.19341980627373,525914
+170,51.344310702519,24,526141,"24 cycle parking spaces"," "," ",162135,"ICR Sutton General Hospital",171,162135,"ICR Sutton General Hospital",-0.1902633990547,526141
+171,51.344130187213,19,526185,"19 cycle parking spaces"," "," ",162116,"ICR Sutton General Hospital",172,162116,"ICR Sutton General Hospital",-0.18963872252062,526185
+172,51.343879862027,14,526098,"14 cycle parking spaces"," "," ",162086,"Royal Marsden Hospital",173,162086,"Royal Marsden Hospital",-0.19089779543019,526098
+173,51.343832958965,10,525538,"10 cycle parking spaces"," "," ",162067,"Belmont Station",174,162067,"Belmont Station",-0.19894051462317,525538
+174,51.343766909068,2,525430,"2 cycle parking spaces"," "," ",162057,"22 Station Road",175,162057,"22 Station Road",-0.20049384043139,525430
+175,51.343815540496,2,525454,"2 cycle parking spaces"," "," ",162063,"13 Station Road",176,162063,"13 Station Road",-0.20014732717477,525454
+176,51.366173886204,9,525014,"9 cycle parking spaces"," "," ",164540,"Robin Hood Lane Health Centre",177,164540,"Robin Hood Lane Health Centre",-0.20559175834753,525014
+177,51.366173886204,2,525014,"2 cycle parking spaces"," "," ",164540,"Plough, Gander Green Lane",178,164540,"Plough, Gander Green Lane",-0.20559175834753,525014
+178,51.366110535544,4,525016,"4 cycle parking spaces"," "," ",164533,"143 Gander Green Lane",179,164533,"143 Gander Green Lane",-0.20556550331205,525016
+179,51.36588824267,9,525046,"9 cycle parking spaces"," "," ",164509,"West Sutton Station",180,164509,"West Sutton Station",-0.205143224917,525046
+180,51.3670318797,8,525769,"8 cycle parking spaces"," "," ",164654,"Asda, High Street",181,164654,"Asda, High Street",-0.19471192689186,525769
+181,51.365567052627,2,526336,"2 cycle parking spaces"," "," ",164505,"5-6 Broadway",182,164505,"5-6 Broadway",-0.18662428794788,526336
+182,51.365658131533,2,526371,"2 cycle parking spaces"," "," ",164516,"Lower Road &amp;#92;/ Thicket Road junction",183,164516,"Lower Road &amp;#92;/ Thicket Road junction",-0.18611789615852,526371
+183,51.365527909172,2,526512,"2 cycle parking spaces"," "," ",164505,"43-45 Lower Road",184,164505,"43-45 Lower Road",-0.18409750513492,526512
+184,51.36547963481,2,526527,"2 cycle parking spaces"," "," ",164500,"51A Lower Road",185,164500,"51A Lower Road",-0.18388393228053,526527
+185,51.366032000995,4,525820,"4 cycle parking spaces"," "," ",164544,"High Street &amp;#92;/ Benhill Avenue  junction",186,164544,"High Street &amp;#92;/ Benhill Avenue  junction",-0.19401859973726,525820
+186,51.366000257458,8,525801,"8 cycle parking spaces"," "," ",164540,"High Street &amp;#92;/ Benhill Avenue",187,164540,"High Street &amp;#92;/ Benhill Avenue",-0.19429279567184,525801
+187,51.365536598231,2,525825,"2 cycle parking spaces"," "," ",164489,"High Street &amp;#92;/ Manor Place",188,164489,"High Street &amp;#92;/ Manor Place",-0.19396626138254,525825
+188,51.365383151759,2,525828,"2 cycle parking spaces"," "," ",164472,"High Street outside  Bradford &amp; Bingley",189,164472,"High Street outside  Bradford &amp; Bingley",-0.19392920174751,525828
+189,51.365193756472,4,525831,"4 cycle parking spaces"," "," ",164451,"High Street outside shoeshop",190,164451,"High Street outside shoeshop",-0.19389355664834,525831
+190,51.364770029851,2,525837,"2 cycle parking spaces"," "," ",164404,"High Street &amp;#92;/ Lodge Place",191,164404,"High Street &amp;#92;/ Lodge Place",-0.19382403519189,525837
+191,51.364225263149,2,525862,"2 cycle parking spaces"," "," ",164344,"High Street outside Top Shop",192,164344,"High Street outside Top Shop",-0.19348634050084,525862
+192,51.36390916126,2,525869,"2 cycle parking spaces"," "," ",164309,"High Street outside  BHS",193,164309,"High Street outside  BHS",-0.19339822395985,525869
+193,51.363640741228,8,525823,"8 cycle parking spaces"," "," ",164278,"Rear St Nicholas centre and Bowling Alley",194,164278,"Rear St Nicholas centre and Bowling Alley",-0.19406957189682,525823
+194,51.363330437598,6,525885,"6 cycle parking spaces"," "," ",164245,"High St outside Boots",195,164245,"High St outside Boots",-0.1931911600846,525885
+195,51.363148036204,4,525897,"4 cycle parking spaces"," "," ",164225,"High Street outside Adams",196,164225,"High Street outside Adams",-0.19302596143627,525897
+196,51.362550673036,4,525916,"4 cycle parking spaces"," "," ",164159,"High Street outside  Woolworths",197,164159,"High Street outside  Woolworths",-0.19277654543826,525916
+197,51.3622426718,4,525927,"4 cycle parking spaces"," "," ",164125,"High Street",198,164125,"High Street",-0.19263065996811,525927
+198,51.362176438639,2,525942,"2 cycle parking spaces"," "," ",164118,"High Street",199,164118,"High Street",-0.19241780059753,525942
+199,51.362125173691,2,525930,"2 cycle parking spaces"," "," ",164112,"High Street",200,164112,"High Street",-0.19259219202905,525930
+200,51.362039510049,6,525911,"6 cycle parking spaces"," "," ",164102,"High Street &amp;#92;/ St Nicholas Road junction",201,164102,"High Street &amp;#92;/ St Nicholas Road junction",-0.19286848787723,525911
+201,51.362103955547,8,525701,"8 cycle parking spaces"," "," ",164104,"Gibson Road",202,164104,"Gibson Road",-0.19588247911061,525701
+202,51.361752711112,4,525948,"4 cycle parking spaces"," "," ",164071,"High Street",203,164071,"High Street",-0.19234829665393,525948
+203,51.361382685173,4,525955,"4 cycle parking spaces"," "," ",164030,"High Street junction with Cheam Road",204,164030,"High Street junction with Cheam Road",-0.19226231536734,525955
+204,51.360926899707,2,525984,"2 cycle parking spaces"," "," ",163980,"High Street",205,163980,"High Street",-0.19186370285785,525984
+205,51.360881520527,2,525986,"2 cycle parking spaces"," "," ",163975,"High Street",206,163975,"High Street",-0.19183676181963,525986
+206,51.360818388547,2,525987,"2 cycle parking spaces"," "," ",163968,"High Street",207,163968,"High Street",-0.19182488398166,525987
+207,51.360785763549,4,525972,"4 cycle parking spaces"," "," ",163964,"Morrisons, High Street",208,163964,"Morrisons, High Street",-0.19204162892983,525972
+208,51.360571080278,4,526008,"4 cycle parking spaces"," "," ",163941,"Sutton Court Road junction with High Street",209,163941,"Sutton Court Road junction with High Street",-0.19153298034479,526008
+209,51.36025105683,2,525911,"2 cycle parking spaces"," "," ",163903,"Grove Road",210,163903,"Grove Road",-0.19293887763683,525911
+210,51.359359481262,70,526041,"70 cycle parking spaces"," "," ",163807,"Sutton station",211,163807,"Sutton station",-0.19110670226115,526041
+211,51.359102276753,2,525985,"2 cycle parking spaces"," "," ",163777,"14 Mulgrave Road",212,163777,"14 Mulgrave Road",-0.19192118971581,525985
+212,51.385601361144,4,526044,"4 cycle parking spaces"," "," ",166727,"Mecca Bingo",213,166727,"Mecca Bingo",-0.19002901692472,526044
+213,51.385199044626,2,525994,"2 cycle parking spaces"," "," ",166681,"6-7 St. Helier Avenue",214,166681,"6-7 St. Helier Avenue",-0.19076347320186,525994
+214,51.384561997,8,526660.57,"8 cycle parking spaces"," "," ",166626.61,"Sutton Arena Leisure Centre",215,166626.61,"Sutton Arena Leisure Centre",-0.1812090077398,526660.57
+215,51.385579734497,4,527109,"4 cycle parking spaces"," "," ",166751,"Middleton Library",216,166751,"Middleton Library",-0.17472391051799,527109
+216,51.385579734497,10,527109,"10 cycle parking spaces"," "," ",166751,"Green Wrythe Lane Clinic",217,166751,"Green Wrythe Lane Clinic",-0.17472391051799,527109
+217,51.384844205085,4,527183,"4 cycle parking spaces"," "," ",166671,"Middleton Road",218,166671,"Middleton Road",-0.17368967923437,527183
+218,51.384704217916,4,527166,"4 cycle parking spaces"," "," ",166655,"Middleton Road",219,166655,"Middleton Road",-0.17393956825523,527166
+219,51.383890675701,2,528306,"2 cycle parking spaces"," "," ",166593,"68 London Road",220,166593,"68 London Road",-0.15758867655819,528306
+220,51.383710032419,2,528310,"2 cycle parking spaces"," "," ",166573,"72 London Road",221,166573,"72 London Road",-0.1575384462362,528310
+221,51.382347923736,26,528412,"26 cycle parking spaces"," "," ",166424,BedZED,222,166424,BedZED,-0.15612732398218,528412
+222,51.383799270919,8,526065,"8 cycle parking spaces"," "," ",166527,"Jn Wrythe Lane &amp;#92;/ Rose Hill",223,166527,"Jn Wrythe Lane &amp;#92;/ Rose Hill",-0.18979831937964,526065
+223,51.383785952667,2,526125,"2 cycle parking spaces"," "," ",166527,"324 Wrythe Lane",224,166527,"324 Wrythe Lane",-0.18893657176969,526125
+224,51.383100914929,2,526215,"2 cycle parking spaces"," "," ",166453,"312 Wrythe Lane",225,166453,"312 Wrythe Lane",-0.18767022357598,526215
+225,51.382848830586,2,526217,"2 cycle parking spaces"," "," ",166425,"1 The Market, Wrythe Lane",226,166425,"1 The Market, Wrythe Lane",-0.18765143976145,526217
+226,51.379527537017,2,528445,"2 cycle parking spaces"," "," ",166111,"168 Hackbridge Road",227,166111,"168 Hackbridge Road",-0.15576645833919,528445
+227,51.3793506796,2,528472,"2 cycle parking spaces"," "," ",166092,"17 London Road",228,166092,"17 London Road",-0.15538557991791,528472
+228,51.379114756666,2,528482,"2 cycle parking spaces"," "," ",166066,"29 London Road",229,166066,"29 London Road",-0.15525136627581,528482
+229,51.380484066507,10,526505,"10 cycle parking spaces"," "," ",166169,"St Helier Hospital",230,166169,"St Helier Hospital",-0.1836062342448,526505
+230,51.380484066507,6,526505,"6 cycle parking spaces"," "," ",166169,"Sutton Common Station",231,166169,"Sutton Common Station",-0.1836062342448,526505
+231,51.374761835979,6,526977,"6 cycle parking spaces"," "," ",165544,"Wrythe Lane &amp;#92;/ Connaught Road junction",232,165544,"Wrythe Lane &amp;#92;/ Connaught Road junction",-0.17705084088193,526977
+232,51.371721393031,1,527351,"1 cycle parking spaces"," "," ",165215,"Wrythe Lane",233,165215,"Wrythe Lane",-0.17179817369095,527351
+233,51.371710389098,1,527360,"1 cycle parking spaces"," "," ",165214,"Wrythe Lane",234,165214,"Wrythe Lane",-0.17166930481871,527360
+234,51.372944397935,6,527588,"6 cycle parking spaces"," "," ",165357,"Green Wrythe Lane near Aultone Way",235,165357,"Green Wrythe Lane near Aultone Way",-0.16834427421473,527588
+235,51.372756567677,6,527584,"6 cycle parking spaces"," "," ",165336,"Green Wrythe Lane",236,165336,"Green Wrythe Lane",-0.16840924170347,527584
+236,51.374649332542,4,529467,"4 cycle parking spaces"," "," ",165594,"Beddington Park Sports Centre",237,165594,"Beddington Park Sports Centre",-0.14127797208816,529467
+237,51.372384050666,4,528201,"4 cycle parking spaces"," "," ",165310,"Mill&amp;#92;/Strawberry Lane",238,165310,"Mill&amp;#92;/Strawberry Lane",-0.15955924307728,528201
+238,51.37263396274,10,526847,"10 cycle parking spaces"," "," ",165304,"Royston Park",239,165304,"Royston Park",-0.17900316763577,526847
+239,51.359063638863,2,524241,"2 cycle parking spaces"," "," ",163730,"52 The Broadway",240,163730,"52 The Broadway",-0.21697256629659,524241
+240,51.356378229766,4,524315,"4 cycle parking spaces"," "," ",163433,"57 Station Way",241,163433,"57 Station Way",-0.21601400213797,524315
+241,51.362248489028,10,523855,"10 cycle parking spaces"," "," ",164075,"CHEAM REC",242,164075,"CHEAM REC",-0.22239355211298,523855
+242,51.384900092066,6,524906,"6 cycle parking spaces"," "," ",166621,"Sutton Common Recreation Ground",243,166621,"Sutton Common Recreation Ground",-0.20641151170545,524906
+243,51.380731190554,2,523296,"2 cycle parking spaces"," "," ",166118,"125-133 Dorchester Road",244,166118,"125-133 Dorchester Road",-0.22971052316337,523296
+244,51.376759204005,2,522796,"2 cycle parking spaces"," "," ",165664,"Cheam Common Road",245,165664,"Cheam Common Road",-0.23704822606363,522796
+245,51.377674955763,2,522634,"2 cycle parking spaces"," "," ",165762,"Central Road North Side",246,165762,"Central Road North Side",-0.2393408580597,522634
+246,51.377536983987,2,522607,"2 cycle parking spaces"," "," ",165746,"Central Road North Side",247,165746,"Central Road North Side",-0.23973411950361,522607
+247,51.379575801801,6,522363,"6 cycle parking spaces"," "," ",165967,"Central Road South  Side",248,165967,"Central Road South  Side",-0.24316213998153,522363
+248,51.380707669648,8,524188,"8 cycle parking spaces"," "," ",166137,"Library Stonecot Hill Ridge Road",249,166137,"Library Stonecot Hill Ridge Road",-0.21689321657039,524188
+249,51.366753504228,10,528142,"10 cycle parking spaces"," "," ",164682,"Grove Park Play Ground",250,164682,"Grove Park Play Ground",-0.16063258651938,528142
+250,51.366743808701,4,528185,"4 cycle parking spaces"," "," ",164682,"Grove Caf&amp;#92;u00e9",251,164682,"Grove Caf&amp;#92;u00e9",-0.16001524000137,528185
+251,51.372196015981,6,522535,"6 cycle parking spaces"," "," ",165150,"Cuddington Recreation Ground",252,165150,"Cuddington Recreation Ground",-0.24097342589151,522535
+252,51.355742645207,6,528030,"6 cycle parking spaces"," "," ",163454,"Stanley Park",253,163454,"Stanley Park",-0.1626822431223,528030
+253,51.38817857338,10,526901,"10 cycle parking spaces"," "," ",167035,"Quad Youth Centre",254,167035,"Quad Youth Centre",-0.17761000211511,526901
+254,51.372035396019,12,528153,"12 cycle parking spaces"," "," ",165270,"Strawberry Lodge",255,165270,"Strawberry Lodge",-0.16026286855295,528153
+255,51.369153978603,6,523799,"6 cycle parking spaces"," "," ",164842,"Cheam District Office",256,164842,"Cheam District Office",-0.22293066978944,523799
+256,51.368429366267,10,523701,"10 cycle parking spaces"," "," ",164759,"Cheam Leisure Centre",257,164759,"Cheam Leisure Centre",-0.22436662435307,523701
+257,51.37212590543,4,527751,"4 cycle parking spaces"," "," ",165270,"Tom Brakes office",258,165270,"Tom Brakes office",-0.16603502014561,527751
+258,51.360468265111,8,525049,"8 cycle parking spaces"," "," ",163906,"Cannons Gym",259,163906,"Cannons Gym",-0.20531200914654,525049
+259,51.375113040433,10,529246,"10 cycle parking spaces"," "," ",165640,"Beddington Park Cafe",260,165640,"Beddington Park Cafe",-0.14443464718539,529246
+260,51.357092285611,2,530709,"2 cycle parking spaces"," "," ",163672,"Roundshaw Park Changing Room",261,163672,"Roundshaw Park Changing Room",-0.12414992938947,530709
+261,51.356347806865,10,530272,"10 cycle parking spaces"," "," ",163578,"Croygas Sports Club",262,163578,"Croygas Sports Club",-0.13045685632358,530272
+262,51.368612416793,6,527749,"6 cycle parking spaces"," "," ",164879,"Carshalton Station",263,164879,"Carshalton Station",-0.16620413554871,527749
+263,51.38290828125,10,528398,"10 cycle parking spaces"," "," ",166486,BedZED,264,166486,BedZED,-0.1563059968069,528398
+264,51.34110623941,6,527494,"6 cycle parking spaces"," "," ",161812,"Oaks Park Cafe",265,161812,"Oaks Park Cafe",-0.17096341480277,527494
+265,51.369828805279,2,526812,"2 cycle parking spaces"," "," ",164991,"Erskine Road",266,164991,"Erskine Road",-0.1796172997904,526812
+266,51.384770994669,10,526666,"10 cycle parking spaces"," "," ",166650,"St Helier Open Space",267,166650,"St Helier Open Space",-0.18112268426892,526666
+267,51.37503311955,10,527331,"10 cycle parking spaces"," "," ",165583,"Century Youth Centre",268,165583,"Century Youth Centre",-0.17195361498212,527331
+268,51.384299360175,4,526645,"4 cycle parking spaces"," "," ",166597,"Sutton Arena Leisure Centre",269,166597,"Sutton Arena Leisure Centre",-0.18144318279365,526645
+269,51.359264670576,4,528909,"4 cycle parking spaces"," "," ",163868,"Beddington Gardens &amp;#92;/ Manor Road",270,163868,"Beddington Gardens &amp;#92;/ Manor Road",-0.14991571537487,528909
+270,51.38339273828,6,526115,"6 cycle parking spaces"," "," ",166483,"17 Wrythe Lane",271,166483,"17 Wrythe Lane",-0.18909580526081,526115
+271,51.364616468663,6,528014,"6 cycle parking spaces"," "," ",164441,"Carshalton Library",272,164441,"Carshalton Library",-0.16255696452052,528014
+272,51.379662793984,4,528443,"4 cycle parking spaces"," "," ",166126,"London Road &amp;#92;/ Hackbridge Rd",273,166126,"London Road &amp;#92;/ Hackbridge Rd",-0.15578976178055,528443
+273,51.362269924856,4,524989,"4 cycle parking spaces"," "," ",164105,"Gander Green Lane &amp;#92;/ Tate Road",274,164105,"Gander Green Lane &amp;#92;/ Tate Road",-0.20610345197872,524989
+274,51.360871521815,6,530022,"6 cycle parking spaces"," "," ",164075,"Mellows Park Cafe",275,164075,"Mellows Park Cafe",-0.13386369789262,530022
+275,51.37057625871,8,525997,"8 cycle parking spaces"," "," ",165054,"Granfers Hall",276,165054,"Granfers Hall",-0.19129683080995,525997
+276,51.383435013756,4,526046,"4 cycle parking spaces"," "," ",166486,"The Market, Wrythe Lane",277,166486,"The Market, Wrythe Lane",-0.19008574301141,526046
+277,51.362806812007,12,528188,"12 cycle parking spaces"," "," ",164244,"Carshalton Park",278,164244,"Carshalton Park",-0.16012993402004,528188
+278,51.386053505593,16,529783,"16 cycle parking spaces"," "," ",166871,"Therapia Lane Council Depot",279,166871,"Therapia Lane Council Depot",-0.13627436019455,529783
+279,51.358341130835,6,528860,"6 cycle parking spaces"," "," ",163764,"Wallington Library Car Park",280,163764,"Wallington Library Car Park",-0.15065672841783,528860
+280,51.358204646101,6,524347,"6 cycle parking spaces"," "," ",163637,"Sainsbury's Local Cheam",281,163637,"Sainsbury's Local Cheam",-0.21548342552218,524347
+281,51.364908770237,6,525738,"6 cycle parking spaces"," "," ",164417,"Cinema, St Nicholas Way",282,164417,"Cinema, St Nicholas Way",-0.19524074101478,525738
+282,51.35922854072,4,525983,"4 cycle parking spaces"," "," ",163791,"10 Mulgrave Road",283,163791,"10 Mulgrave Road",-0.1919449449186,525983
+283,51.361829393236,34,525764,"34 cycle parking spaces"," "," ",164075,"Civic Centre&amp;#92;/Library",284,164075,"Civic Centre&amp;#92;/Library",-0.19498831495363,525764
+284,51.357820036,6,528780,"6 cycle parking spaces"," "," ",163704,"Wallington Magistrates Court",285,163704,"Wallington Magistrates Court",-0.15182676728964,528780
+285,51.358865892006,6,530656,"6 cycle parking spaces"," "," ",163868,"Powerleague Soccer",286,163868,"Powerleague Soccer",-0.12483873968396,530656
+286,51.357275757354,20,528842,"20 cycle parking spaces"," "," ",163645,"Shotfield Health Centre",287,163645,"Shotfield Health Centre",-0.1509581684335,528842
+287,51.392353896752,2,527038,"2 cycle parking spaces"," "," ",167503,"Hillfield Parade",288,167503,"Hillfield Parade",-0.17547486926221,527038
+288,51.369976104301,2,526756,"2 cycle parking spaces"," "," ",165006,"Erskine Road",289,165006,"Erskine Road",-0.18041600475916,526756
+289,51.366067079917,2,526714,"2 cycle parking spaces"," "," ",164570,"Westmead Road",290,164570,"Westmead Road",-0.18117431008879,526714
+290,51.363062699403,6,526605,"6 cycle parking spaces"," "," ",164233,"Our Lady of the Rosary Church",291,164233,"Our Lady of the Rosary Church",-0.18285909166357,526605
+291,51.371025825572,6,527967,"6 cycle parking spaces"," "," ",165153,"24 Denmark Road",292,165153,"24 Denmark Road",-0.16297564814568,527967
+292,51.367044885917,10,525140,"10 cycle parking spaces"," "," ",164640,"Sutton Utd FC",293,164640,"Sutton Utd FC",-0.20374760215462,525140
+293,51.369361644672,10,527414,"10 cycle parking spaces"," "," ",164954,"Carshalton Athletic FC",294,164954,"Carshalton Athletic FC",-0.17098705927699,527414
+294,51.37776754204,10,525706,"10 cycle parking spaces"," "," ",165847,"Sutton Junior Tennis Club",295,165847,"Sutton Junior Tennis Club",-0.19519486425707,525706
+295,51.377969666873,20,528578,"20 cycle parking spaces"," "," ",165941,"Hackbridge Station",296,165941,"Hackbridge Station",-0.15391793471231,528578
+296,51.36152980754,8,525615,"8 cycle parking spaces"," "," ",164038,"Secombe Theatre",297,164038,"Secombe Theatre",-0.19714036367512,525615
+297,51.367863686472,20,528320,"20 cycle parking spaces"," "," ",164810,"Westcroft Leisure Centre",298,164810,"Westcroft Leisure Centre",-0.15803090238277,528320
+298,51.368705424049,20,523754,"20 cycle parking spaces"," "," ",164791,"Cheam Leisure Centre",299,164791,"Cheam Leisure Centre",-0.2235945247331,523754

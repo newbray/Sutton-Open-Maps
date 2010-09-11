@@ -14,15 +14,20 @@
     XML
 
 #map
-    
-%table
-  %tr
-    %th.col_title Title
-    %th.col_address Address
-    %th.col_phone Phone
 
-  - for place in @layer.places
+- if @layer.places.count <= 100
+    
+  %table
     %tr
-      %td= place.title
-      %td= place.address(", ")
-      %td= place.phone
+      %th.col_title Title
+      %th.col_address Address
+      %th.col_phone Phone
+  
+    - for place in @layer.places
+      %tr
+        %td= place.title
+        %td= place.address(", ")
+        %td= place.phone
+- else
+
+  %p No place list is shown for maps which have more than 100 places.
