@@ -80,7 +80,10 @@
                 bounds.extend(ll);
               });
               
+              
               map.fitBounds(bounds);
+              var ctaLayer = new google.maps.KmlLayer('http://dl.dropbox.com/u/300783/sutton%20borough%20boundary.kml');
+              ctaLayer.setMap(map);
               
             }
           );
