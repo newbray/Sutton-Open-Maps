@@ -3,21 +3,23 @@
 %p
   = @layer.places.count
   places
-  |
-  Download as
-  %a{ :href=> "/maps/#{@layer.id}.csv" }<
-    CSV
-  %a{ :href=> "/maps/#{@layer.id}.json" }<
-    JSON
-  %a{ :href=> "/maps/#{@layer.id}.xml" }<
-    XML
+  -#
+    |
+    Download as
+    %a{ :href=> "/maps/#{@layer.id}.csv" }<
+      CSV
+    %a{ :href=> "/maps/#{@layer.id}.json" }<
+      JSON
+    %a{ :href=> "/maps/#{@layer.id}.xml" }<
+      XML
+
 #map
     
 %table
   %tr
-    %th Title
-    %th Address
-    %th Phone
+    %th.col_title Title
+    %th.col_address Address
+    %th.col_phone Phone
 
   - for place in @layer.places
     %tr

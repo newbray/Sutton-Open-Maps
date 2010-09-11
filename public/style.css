@@ -239,3 +239,18 @@ a.filter_selected
   background-color: #fff;
   vertical-align: bottom;
 }
+
+.col_title
+{
+  width: 40%;
+}
+
+.col_address
+{
+  width: 40%;
+}
+
+.col_phone
+{
+  width: 20%;
+}

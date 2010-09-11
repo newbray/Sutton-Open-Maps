@@ -6,69 +6,70 @@
     %link{ :rel => 'stylesheet', :type => 'text/css', :href => '/style.css' }
     %script{ :type => 'text/javascript', :src => 'http://maps.google.com/maps/api/js?sensor=false' }
     %script{:type => 'text/javascript', :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js'}
-
-    :javascript
-      function initialize() {
-        
-        var ll = new google.maps.LatLng(51.3604, -0.1902);
-        
-        var myOptions = {
-          zoom: 13,
-          center: ll,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        
-        var map = new google.maps.Map(document.getElementById("map"),
-            myOptions);
-        
-        var bounds = new google.maps.LatLngBounds();       
+    - unless @layer.nil?
+      :javascript
+        function initialize() {
+          
+          var ll = new google.maps.LatLng(51.3604, -0.1902);
+          
+          var myOptions = {
+            zoom: 13,
+            center: ll,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          
+          var map = new google.maps.Map(document.getElementById("map"),
+              myOptions);
+          
+          var bounds = new google.maps.LatLngBounds();       
+         
+  
+          var url = "/maps/#{@layer.id}.json";
+          
+          var windows = [];
+                 
+          $.get(
+            url,
+            function(data) {
+              //alert("Data loaded ok " + typeof data + " " + data.length + " " + data);
+  
        
-
-        var url = "/maps/#{@layer.id}.json";
-        
-        var windows = [];
-               
-        $.get(
-          url,
-          function(data) {
-            //alert("Data loaded ok " + typeof data + " " + data.length + " " + data);
-
-     
-            $.each (data, function() {
-              //alert(this.title);
-              
-              ll = new google.maps.LatLng(this.lat, this.lng);
-              
-              var marker = new google.maps.Marker({
-                position: ll,
-                title: this.title,
-                map: map
-              });
-              
-              
-              var infowindow = new google.maps.InfoWindow({
-                content: "<strong>" + this.title + "</strong><br />" + this.address + "<br />Phone: " + this.phone
-              });
-              
-              google.maps.event.addListener(marker, 'click', function() {
-                // Remove other open info windows
-                $.each (windows, function() {
-                  this.close();
+              $.each (data, function() {
+                //alert(this.title);
+                
+                ll = new google.maps.LatLng(this.lat, this.lng);
+                
+                var marker = new google.maps.Marker({
+                  position: ll,
+                  title: this.title,
+                  map: map,
+                  icon: "/icons/#{@layer.icon}"
                 });
-                infowindow.open(map, marker);
-                windows.push(infowindow);
+                
+                
+                var infowindow = new google.maps.InfoWindow({
+                  content: "<strong>" + this.title + "</strong><br />" + this.address + "<br />Phone: " + this.phone
+                });
+                
+                google.maps.event.addListener(marker, 'click', function() {
+                  // Remove other open info windows
+                  $.each (windows, function() {
+                    this.close();
+                  });
+                  infowindow.open(map, marker);
+                  windows.push(infowindow);
+                });
+                
+                
+                bounds.extend(ll);
               });
               
+              map.fitBounds(bounds);
               
-              bounds.extend(ll);
-            });
-            
-            map.fitBounds(bounds);
-            
-          }
-        );
-
-      }
+            }
+          );
+  
+        }
         
 
   %body{ :onload => "initialize()" }

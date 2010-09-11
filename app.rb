@@ -6,8 +6,7 @@ require 'dm-validations'
 require 'dm-migrations'
 require 'dm-serializer'
 require 'haml'
-require 'open-uri'
-require 'csv'
+# require 'csv'
 
 class Layer
   include DataMapper::Resource
@@ -15,7 +14,9 @@ class Layer
   property  :id,          Serial
   property  :title,       String,   :length => 255, :required => true
   property  :description, Text
-  
+  property  :icon,        String,   :length => 50
+  property  :slug,        String,   :length => 255
+    
   has n, :places, :order => [ 'title' ]
 end
 
@@ -64,6 +65,7 @@ end
 
 get '/maps/:id.json' do
   content_type :json
+#   Layer.get(params[:id]).to_json(:relationships => 'place')
   Layer.get(params[:id]).places.to_json(:methods => 'address')
 end
 
@@ -73,8 +75,8 @@ get '/maps/:id.xml' do
   Layer.get(params[:id]).places.to_xml
 end
 
-get '/maps/:id' do
-  @layer = Layer.get(params[:id])
+get '/maps/:slug' do
+  @layer = Layer.first(:slug => params[:slug])
   haml :layer
 end
 
