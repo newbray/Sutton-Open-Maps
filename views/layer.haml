@@ -1,0 +1,26 @@
+%h1= @page_title = @layer.title
+
+%p
+  = @layer.places.count
+  places
+  |
+  Download as
+  %a{ :href=> "/maps/#{@layer.id}.csv" }<
+    CSV
+  %a{ :href=> "/maps/#{@layer.id}.json" }<
+    JSON
+  %a{ :href=> "/maps/#{@layer.id}.xml" }<
+    XML
+#map
+    
+%table
+  %tr
+    %th Title
+    %th Address
+    %th Phone
+
+  - for place in @layer.places
+    %tr
+      %td= place.title
+      %td= place.address(", ")
+      %td= place.phone

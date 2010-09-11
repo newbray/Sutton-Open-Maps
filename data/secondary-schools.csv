@@ -1,0 +1,15 @@
+ID,SchoolType,Town,lat,Easting,Northing,description,Postcode,TelephoneNumber,y:location_lat,y:location_lon,y:row,StreetName,title,lng,SchoolName
+13,Secondary,Carshalton,51.377991575963,527094.97,165906.31,"Phone: 020 8644 7325","SM5 1RW","020 8644 7325"," "," ",14,"Winchcombe Road","Carshalton Boys Sports College",-0.17522737321007,"Carshalton Boys Sports College"
+14,Secondary,Carshalton,51.369848992779,527532.46,165011.184,"Phone: 020 8647 8294","SM5 2QX","020 8647 8294"," "," ",15,"West Street","Carshalton High School for Girls",-0.16926573818172,"Carshalton High School for Girls"
+18,Secondary,Cheam,51.366025771949,524112.726,164501.544,"Phone: 020 8644 5790","SM3 8PW","020 8644 5790"," "," ",19,"Chatsworth Road","Cheam High",-0.21854490354577,"Cheam High"
+25,Secondary,Sutton,51.380959059763,525298.035,166192.091,"Phone: 020 8644 6307","SM3 9PS","020 8644 6307"," "," ",26,"Sutton Common Road","Glenthorne High",-0.20093191237727,"Glenthorne High"
+27,Secondary,Sutton,51.376583889927,526529.523,165735.634,"Phone: 020 8715 1001","SM1 3DY","020 8715 1001"," "," ",28,"Grennell Road","Greenshaw High",-0.18340824690839,"Greenshaw High"
+34,Secondary,Cheam,51.35526478953,523754.181,163295.499,"Phone: 020 8394 1308","SM3 8AB","020 8394 1308"," "," ",35,"Ewell Road","Nonsuch High School for Girls",-0.22411186847129,"Nonsuch High School for Girls"
+35,Secondary,Sutton,51.352048879839,525698.92,162985.13,"Phone: 020 8239 2383","SM2 6TQ","020 8239 2383"," "," ",36,"Stanley Road","Overton Grange",-0.1963073433315,"Overton Grange"
+46,Secondary,Sutton,51.364655271731,527507.663,164432.655,"Phone: 020 8642 2025","SM5 3PS","020 8642 2025"," "," ",47,"Pound Street","St Philomenas",-0.1698290772317,"St Philomenas"
+47,Secondary,Carshalton,51.35630845851,528341.723,163524.778,"Phone: 020 8647 5842","SM5 3HP","020 8647 5842"," "," ",48,"Stanley Park Road","Stanley Park High",-0.15818243261113,"Stanley Park High"
+50,Secondary,Sutton,51.364969692343,526109.351,164432.932,"Phone: 020 8642 3821","SM1 4AS","020 8642 3821"," "," ",51,"Manor Lane","Sutton Grammar School for Boys",-0.18990377065116,"Sutton Grammar School for Boys"
+52,Secondary,Purley,51.345431725494,530064.142,162358.042,"Phone: 020 8660 4555","CR8 3YP","020 8660 4555"," "," ",52,"Peaks Hill","The John Fisher",-0.13388583064469,"The John Fisher"
+56,Secondary,Wallington,51.369392413379,528956.461,164996.133,"Phone: 020 8254 7920","SM6 7PH","020 8254 7920"," "," ",56,"Croydon Road","Wallington County Grammar",-0.14882566511211,"Wallington County Grammar"
+57,Secondary,Wallington,51.348254850899,528957.129,162644.131,"Phone: 020 8647 2380","SM6 0PH","020 8647 2380"," "," ",57,"Woodcote Road","Wallington High School for Girls",-0.14966804437524,"Wallington High School for Girls"
+60,Secondary,Wallington,51.358696704792,530434.074,163843.504,"Phone: 020 8773 2931","SM6 9JW","020 8773 2931"," "," ",60,"Mollison Drive",Wilsons,-0.12803327676359,Wilsons
