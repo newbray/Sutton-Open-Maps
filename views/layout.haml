@@ -31,11 +31,9 @@
           $.get(
             url,
             function(data) {
-              //alert("Data loaded ok " + typeof data + " " + data.length + " " + data);
-  
-       
+
+              // Loop through each Place in the data and create a marker
               $.each (data, function() {
-                //alert(this.title);
                 
                 ll = new google.maps.LatLng(this.lat, this.lng);
                 
@@ -47,15 +45,33 @@
                 });
                 
                 
+                // Build content for info window
+                var content = "<p><span class='info_title'>" + this.title + "</span>"
+                
+                if (this.address) {
+                  content += "<br />" + this.address + "<br />Phone: " + this.phone
+                }
+                
+                content += "</p>"
+                
+                if (this.description) {
+                  content += "<p>" + this.description + "</p>"
+                }
+                
+                
+                
                 var infowindow = new google.maps.InfoWindow({
-                  content: "<strong>" + this.title + "</strong><br />" + this.address + "<br />Phone: " + this.phone
+                  content: content
                 });
                 
+                // Click event handler for info window
                 google.maps.event.addListener(marker, 'click', function() {
+
                   // Remove other open info windows
                   $.each (windows, function() {
                     this.close();
                   });
+
                   infowindow.open(map, marker);
                   windows.push(infowindow);
                 });

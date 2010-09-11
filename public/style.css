@@ -254,3 +254,9 @@ a.filter_selected
 {
   width: 20%;
 }
+
+.info_title
+{
+  font-size: 125%;
+  font-weight: bold;
+}
