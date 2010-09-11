@@ -3,15 +3,15 @@
 %p
   = @layer.places.count
   places
+  &nbsp;&nbsp;&nbsp;
+  Download as
   -#
-    |
-    Download as
-    %a{ :href=> "/maps/#{@layer.id}.csv" }<
+    %a{ :href=> "/maps/#{@layer.slug}.csv" }<
       CSV
-    %a{ :href=> "/maps/#{@layer.id}.json" }<
-      JSON
-    %a{ :href=> "/maps/#{@layer.id}.xml" }<
-      XML
+  %a{ :href=> "/maps/#{@layer.slug}.json" }<
+    JSON
+  %a{ :href=> "/maps/#{@layer.slug}.xml" }<
+    XML
 
 #map
     

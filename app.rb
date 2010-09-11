@@ -6,7 +6,6 @@ require 'dm-validations'
 require 'dm-migrations'
 require 'dm-serializer'
 require 'haml'
-# require 'csv'
 
 class Layer
   include DataMapper::Resource
@@ -53,33 +52,24 @@ get '/' do
   haml :index
 end
 
-get '/maps/:id.csv' do
+get '/maps/:slug.csv' do
   content_type :csv
-  CSV::Writer.generate(STDOUT) do |csv|
-    Layer.get(params[:id]).places.each do |place|
-      csv << [  ]
-    end
-  end
-#   Layer.get(params[:id]).places.to_csv
+  Layer.first(:slug => params[:slug]).places.to_csv
 end
 
-get '/maps/:id.json' do
+get '/maps/:slug.json' do
   content_type :json
-#   Layer.get(params[:id]).to_json(:relationships => 'place')
-  Layer.get(params[:id]).places.to_json(:methods => 'address')
+  headers "Content-Disposition" => "attachment"
+  Layer.first(:slug => params[:slug]).places.to_json(:methods => 'address')
 end
 
-get '/maps/:id.xml' do
+get '/maps/:slug.xml' do
   content_type :xml
   headers "Content-Disposition" => "attachment"
-  Layer.get(params[:id]).places.to_xml
+  Layer.first(:slug => params[:slug]).places.to_xml
 end
 
 get '/maps/:slug' do
   @layer = Layer.first(:slug => params[:slug])
   haml :layer
 end
-
-
-
-
