@@ -12,7 +12,9 @@
     JSON
   %a{ :href=> "/maps/#{@layer.slug}.xml" }<
     XML
-
+  %a{ :href=> "/maps/#{@layer.slug}.kml" }<
+    KML for Google Earth
+    
 #map
 
 - if @layer.places.count <= 100
