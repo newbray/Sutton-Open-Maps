@@ -4,16 +4,17 @@
   = @layer.places.count
   places
   &nbsp;&nbsp;&nbsp;
-  Download as
   -#
     %a{ :href=> "/maps/#{@layer.slug}.csv" }<
       CSV
   %a{ :href=> "/maps/#{@layer.slug}.json" }<
-    JSON
+    Download as JSON
   %a{ :href=> "/maps/#{@layer.slug}.xml" }<
-    XML
+    Download as XML
   %a{ :href=> "/maps/#{@layer.slug}.kml" }<
-    KML for Google Earth
+    View in Google Earth (KML)
+  %a{ :href=> "http://maps.google.co.uk/maps?q=" + base_url + "/maps/#{@layer.slug}.kml" }<
+    View in Google Maps
     
 #map
 
