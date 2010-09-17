@@ -34,12 +34,12 @@ input
   margin: 30px 0;
 }
 
-#footer
+footer
 {
-  font-size: 100%;
+  font-size: 80%;
   background-color: #fff;
   text-align: left;
-  margin: 40px 0 40px 0;
+  margin: 60px 0;
 }
 
 .top_border

@@ -66,7 +66,7 @@ end
 get '/maps/:slug.xml' do
   content_type :xml
   headers "Content-Disposition" => "attachment"
-  Layer.first(:slug => params[:slug]).places.to_xml
+  "<?xml version='1.0'?>\n" + Layer.first(:slug => params[:slug]).places.to_xml
 end
 
 get '/maps/:slug' do
