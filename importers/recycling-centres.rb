@@ -14,7 +14,7 @@ if ARGV[0].nil?
   exit
 end
 
-layer = Layer.first_or_create :title => "Recycling Centres", :slug => 'recycling-centres', :icon => 'cycling.png'
+layer = Layer.first_or_create :title => "Recycling Centres", :slug => 'recycling-centres', :icon => 'recycle.png'
 columns = {}
 
 FasterCSV.foreach(ARGV[0]) do |row|
