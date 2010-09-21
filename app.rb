@@ -91,7 +91,7 @@ get '/maps/:slug.kml' do
   xml.kml :xmlns => "http://earth.google.com/kml/2.0" do
     xml.Document do
   
-      xml.name @layer.title
+      xml.name "#{@layer.title} in Sutton"
   
       # Common marker style
       xml.Style( :id => "marker" ) do
