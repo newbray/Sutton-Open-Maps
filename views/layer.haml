@@ -4,7 +4,7 @@
   = @layer.places.count
   places
   &nbsp;&nbsp;&nbsp;
-  %a{ :href=> "http://maps.google.co.uk/maps?q=" + base_url + "/maps/#{@layer.slug}.kml" }<
+  %a{ :href=> "http://maps.google.co.uk/maps?q=#{base_url}/maps/#{@layer.slug}.kml" }<
     View in Google Maps
   %a{ :href=> "/maps/#{@layer.slug}.kml" }<
     View in Google Earth (KML)
