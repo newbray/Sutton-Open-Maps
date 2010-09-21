@@ -50,7 +50,12 @@
                 var content = "<p><span class='info_title'>" + this.title + "</span>"
                 
                 if (this.address) {
-                  content += "<br />" + this.address + "<br />Phone: " + this.phone
+
+                  content += "<br />" + this.address
+                  
+                  if (this.phone) {
+                    content += "<br />Phone: " + this.phone
+                  }
                 }
                 
                 content += "</p>"
