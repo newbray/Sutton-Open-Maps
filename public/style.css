@@ -123,7 +123,7 @@ strong
 table
 {
   border-collapse: collapse;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 td, th
