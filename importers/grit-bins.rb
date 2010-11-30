@@ -41,7 +41,7 @@ FasterCSV.foreach(ARGV[0]) do |row|
   
       place = Place.first_or_new(
         'title' =>        row[columns['Road']],
-        'description' =>  "#{row[columns['Location']]}<br /><br />Grit bin ID: #{row[columns['GritBinID']]}",
+        'description' =>  "#{row[columns['Location']]}<br /><br />To get this bin refilled please phone <a href=\"tel:02087705070\">Sutton Council on <strong>020 8770 5070</strong></a> and quote <strong>grit bin number #{row[columns['GritBinID']]}</strong>.",
         'lat' =>          row[columns['lat']],
         'lng' =>          row[columns['lng']],
         'city' =>         row[columns['Town']],
