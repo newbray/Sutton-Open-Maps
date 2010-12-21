@@ -15,6 +15,8 @@ if ARGV[0].nil?
 end
 
 layer = Layer.first_or_create :title => "Grit Bins", :slug => 'grit-bins', :icon => 'gritbin.png'
+# Uncomment this line if you want to replace rather than add to existing places for this layer
+# layer.places.destroy
 columns = {}
 
 FasterCSV.foreach(ARGV[0]) do |row|
@@ -44,7 +46,6 @@ FasterCSV.foreach(ARGV[0]) do |row|
         'description' =>  "#{row[columns['Location']]}<br /><br />To get this bin refilled please phone <a href=\"tel:02087705070\">Sutton Council on <strong>020 8770 5070</strong></a> and quote <strong>grit bin number #{row[columns['GritBinID']]}</strong>.",
         'lat' =>          row[columns['lat']],
         'lng' =>          row[columns['lng']],
-        'city' =>         row[columns['Town']],
         'layer' =>        layer
       )
   
