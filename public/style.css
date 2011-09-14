@@ -1,12 +1,27 @@
+html {
+  height: 100%;
+}
+
 body
 {
-  background-color: #fff;
-  color: #555;
+  background-color: #333;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 90%;
   line-height: 1.5em;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#inner {
   width: 960px;
   margin: 30px auto;
+  padding: 0 30px;
+}
+
+li {
+  padding: 0 10px;
 }
 
 p
@@ -16,28 +31,44 @@ p
 
 input
 {
-  font-size: 130%;
+  font-size: 90%;
   background-color: #fff;
+}
+
+#credits {
+  font-size: 85%;
 }
 
 #map
 {
-  width: 100%;
-  height: 600px;
-  background-color: #aaa;
-  margin: 30px 0;
+  width: auto;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  margin: 0 0 0 200px;
+  padding: 0;
   display: block;
 }
 
-#main
-{
-  margin: 30px 0;
+#panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 10px 0px;
+  background-color: #333;
+  color: #fff;
+}
+
+header {
 }
 
 footer
 {
+  display: block;
   font-size: 80%;
-  background-color: #fff;
   text-align: left;
   margin: 60px 0;
 }
@@ -49,17 +80,17 @@ footer
 
 a
 {
-  background-color: #dce9b0;
+  background-color: #777;
   padding: 1px 4px;
-  color: #111;
+  color: #fff;
   text-decoration: none;
 }
 
 a:visited
 {
-  background-color: #eee;
+  background-color: #777;
   padding: 1px 4px;
-  color: #111;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -72,20 +103,21 @@ a:hover
 
 h1
 {
-  margin: 20px 0;
+  margin: 20px 0px;
+  padding: 0;
   line-height: 1.4em;
   font-weight: bold;
-  color: #86a11d;
+  color: #fff;
   font-size: 170%;
 }
 
 h1.logo
 {
-  margin: 20px 0;
+  margin: 5px 10px;
   line-height: 1.4em;
   font-weight: bold;
-  color: #86a11d;
-  font-size: 230%;
+  color: #fff;
+  font-size: 135%;
 }
 
 h2
@@ -123,12 +155,12 @@ strong
 table
 {
   border-collapse: collapse;
-  margin: 50px 0;
+  margin: 10px 0;
 }
 
 td, th
 {
-  padding: 6px 50px 6px 6px;
+  padding: 7px 10px 7px 0;
 }
 
 th
@@ -136,9 +168,27 @@ th
   text-align: left;
 }
 
+table:first-child {
+  border-top: 1px solid #eee;
+}
+
 tr
 {
   border-bottom: 1px solid #eee;
+}
+
+.selected {
+  background-color: #fff;
+  color: #000;
+  border: 0;
+}
+
+.plain tr {
+  border: 0;
+}
+
+table.plain:first-child {
+  border: 0;
 }
 
 .right
@@ -150,20 +200,6 @@ tr
 .noborder
 {
   border: 0;
-}
-
-.download a, .download a:visited
-{
-  margin: 15px 0;
-  padding: 7px;
-  background-color: red;
-  color: white;
-}
-
-.download a:hover
-{
-  background-color: #eee;
-  color: red;
 }
 
 .callout

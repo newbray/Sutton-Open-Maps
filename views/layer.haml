@@ -1,41 +1,46 @@
-%h1= @page_title = @layer.title
-
-%p
-  = @layer.places.count
-  places
-  &nbsp;&nbsp;&nbsp;
-  %a{ :href=> "http://maps.google.co.uk/maps?q=#{base_url}/maps/#{@layer.slug}.kml" }<
-    View in Google Maps
-  %a{ :href=> "/maps/#{@layer.slug}.kml" }<
-    View in Google Earth (KML)
+#panel.noprint
+  %h1.logo
+    Sutton Open Maps
   -#
-    %a{ :href=> "/maps/#{@layer.slug}.csv" }<
-      CSV
-  %a{ :href=> "/maps/#{@layer.slug}.json" }<
-    JSON Download
-  %a{ :href=> "/maps/#{@layer.slug}.xml" }<
-    XML Download
+    %form{ :id => 'postcode_form' }
+      %input{ :type => 'text', :id => 'postcode', :name => 'postcode', :size => '8', :maxlength => '8', :value => 'SM1 1EA' }
+      %input{ :type => 'submit', :value => 'Go' }
+      
+  -#
+    #buttons
+      %table
+        - for layer in Layer.all :order => 'title'
+          %tr{ :id => "button-#{layer.slug}", :onclick => "loadLayer('#{layer.slug}'); return false;" }
+            %td
+              = layer.title
+            %td
+              %img{ :src => "/icons/#{layer.icon}", :height => "30" }
 
+  #buttons
+    %ul{ :style => "list-style-type: none; list-style-position: outside; margin: 0; padding: 5px 0; width: 100%;"}
+      - for layer in Layer.all :order => 'title'
+        %li{ :id => "button-#{layer.slug}", :onclick => "loadLayer('#{layer.slug}'); return false;", :style => "background-image: url('#{'/icons/' + layer.icon}'); background-repeat: no-repeat; background-position: 80% 0%; height: 40px; width: 100%; line-height: 2.8em;"}
+          = layer.title
+          -#
+            %td
+              %img{ :src => "/icons/#{layer.icon}", :height => "30" }
+
+          
+  #credits
+    %p
+      %a{ :href => '/data'}
+        Get the data
+
+    %table.plain
+      %tr
+        %td Design
+        %td
+          %a{ :href => "http://adrianshort.co.uk/" }
+            Adrian Short
+      %tr
+        %td Data
+        %td
+          %a{ :href => "http://www.sutton.gov.uk/index.aspx?articleid=10077" }
+            Sutton Council
     
 #map
-
-%a{ :href => "http://suttondata.wordpress.com/2010/09/21/how-to-embed-sutton-open-maps-in-your-website/", :target => "_blank" }<
-  How to embed Sutton Open Maps in your website
-
-
-- if @layer.places.count <= 100
-    
-  %table
-    %tr
-      %th.col_title Title
-      %th.col_address Address
-      %th.col_phone Phone
-  
-    - for place in @layer.places
-      %tr
-        %td= place.title
-        %td= place.address(", ")
-        %td= place.phone
-- else
-
-  %p No place list is shown for maps which have more than 100 places.

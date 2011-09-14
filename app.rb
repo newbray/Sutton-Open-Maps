@@ -35,6 +35,7 @@ class Place
   property  :county,      String,   :length => 50
   property  :postcode,    String,   :length => 8
   property  :phone,       String,   :length => 20
+  property  :address,     String # overridden by address() method; this ensures the method is included in to_json calls etc.
   
   belongs_to :layer
   
@@ -55,19 +56,33 @@ helpers do
 end
 
 get '/' do
-  @layers = Layer.all(:order => [:title])
-  haml :index
+  @first_layer = Layer.first(:order => :title)
+  haml :layer, :layout => :map, :locals => { :first_layer => @first_layer }
 end
 
-get '/maps/:slug.csv' do
-  content_type :csv
-  Layer.first(:slug => params[:slug]).places.to_csv
+get '/data' do
+  @layers = Layer.all(:order => [:title])
+  haml :data, :layout => :static
 end
+
+# get '/maps/:slug.csv' do
+#   content_type :csv
+#   
+#   l = Layer.first(:slug => params[:slug])
+#   
+#   output = "id,title,address1,address2,city,county,postcode,phone,description,lat,lng\n"
+#   
+#   for place in l.places
+#     output += sprintf("#{place.id.to_s},#{place.title},#{place.address1},#{place.address2},#{place.city},#{place.county},#{place.postcode},#{place.phone},\"%s\",#{place.lat},#{place.lng}\n", place.description.gsub(/<br \/>/, "\n"))
+#   end
+#   
+#   output
+# end
 
 get '/maps/:slug.json' do
   content_type :json
   headers "Content-Disposition" => "attachment"
-  Layer.first(:slug => params[:slug]).places.to_json(:methods => 'address')
+  Layer.first(:slug => params[:slug]).to_json(:methods => [ :places ])
 end
 
 get '/maps/:slug.xml' do
@@ -126,9 +141,4 @@ get '/maps/:slug.kml' do
       end
     end  
   end
-end
-
-get '/maps/:slug' do
-  @layer = Layer.first(:slug => params[:slug])
-  haml :layer
 end

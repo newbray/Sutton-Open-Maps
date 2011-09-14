@@ -1,0 +1,17 @@
+%table
+  - for layer in @layers
+    %tr
+      %td= layer.title
+      %td
+        %a{ :href => "maps/#{layer.slug}.json" }
+          JSON
+      %td
+        %a{ :href => "maps/#{layer.slug}.xml" }
+          XML
+      %td
+        %a{ :href => "maps/#{layer.slug}.kml" }
+          KML (Google Earth)
+
+%p
+  %a{ :href => '/' }
+    &laquo; Back to the map
