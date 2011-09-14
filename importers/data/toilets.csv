@@ -1,0 +1,15 @@
+url,Premises,Address 1,City,Post Code,mon-open,mon-close,tue-open,tue-close,wed-open,wed-close,thu-open,thu-close,fri-open,fri-close,sat-open,sat-close,sun-open,sun-close,Male,Female,Disabled,Baby Changing,RADAR Key,Changing Places
+http://data.sutton.gov.uk/toilets/asda-sutton,ASDA,231 High Street,Sutton,SM1 1LD,08:00,22:00,08:00,22:00,08:00,22:00,08:00,22:00,08:00,22:00,08:00,22:00,11:00,17:00,Yes,Yes,Yes,Yes,No,No
+http://data.sutton.gov.uk/toilets/BHS-sutton,BHS,136-140 High Street,Sutton,SM1 1LX,09:00,17:30,09:00,17:30,09:00,17:30,09:00,20:00,09:00,17:30,08:30,18:00,10:30,16:30,Yes,Yes,Yes,Yes,No,No
+http://data.sutton.gov.uk/toilets/B&Q-sutton,B&Q Sutton,Sutton Court Road,Sutton,SM1 4RQ,07:00,21:00,07:00,21:00,07:00,21:00,07:00,21:00,07:00,21:00,07:00,20:00,10:00,16:00,Yes,Yes,No,No,No,No
+http://data.sutton.gov.uk/toilets/cafedelight-sutton,Cafe Delight,325 High Street,Sutton,SM1 1LW,06:00,17:00,06:00,17:00,06:00,17:00,06:00,17:00,06:00,17:00,06:00,17:00,08:00,16:00,Yes,Yes,No,No,No,No
+http://data.sutton.gov.uk/toilets/civicoffices-sutton,Civic Offices,St Nicholas Way,Sutton,SM1 1EA,08:00,17:30,08:00,17:30,08:00,17:30,08:00,17:30,08:00,17:30,no,no,no,no,Yes,Yes,Yes,No,No,No
+http://data.sutton.gov.uk/toilets/debenhams-sutton,Debenhams,St Nicholas Centre,Sutton,SM1 1WA,09:00,17:00,09:00,17:00,09:00,17:00,09:00,20:00,09:00,17:00,09:00,18:00,11:00,17:00,Yes,Yes,Yes,Yes,No,No
+http://data.sutton.gov.uk/toilets/empire-sutton,Empire Cinema,St Nicholas Centre,Sutton,SM1 1WA,12:00,21:00,12:00,21:00,12:00,21:00,12:00,21:00,12:00,21:00,10:30,21:00,10:30,21:00,Yes,Yes,Yes,No,No,No
+http://data.sutton.gov.uk/toilets/thegrapespub-sutton,The Grapes Public House,198 High Street,Sutton,SM1 1NR,09:00,00:00,09:00,00:00,09:00,00:00,09:00,00:00,09:00,01:00,09:00,01:00,09:00,00:00,Yes,Yes,Yes,Yes,No,No
+http://data.sutton.gov.uk/toilets/marksandspencer-sutton,Marks and Spencer,142 - 146 High Street,Sutton,SM1 1LX,09:00,18:30,09:00,18:30,09:00,18:30,09:00,19:00,09:00,18:30,08:30,18:30,11:00,17:00,Yes,Yes,Yes,Yes,No,No
+http://data.sutton.gov.uk/toilets/mcdonalds-sutton,McDonalds,168 - 172 High Street,Sutton,SM1 1NL,06:00,23:00,06:00,23:00,06:00,23:00,06:00,23:00,06:00,23:00,06:00,23:00,06:00,23:00,Yes,Yes,Yes,Yes,No,No
+http://data.sutton.gov.uk/toilets/stnicholascentre-sutton,St Nicholas Shopping Centre,St Nicholas Way,Sutton,SM1 1AY,09:00,17:30,09:00,17:30,09:00,17:30,09:00,20:00,09:00,17:30,09:00,18:00,11:00,17:00,Yes,Yes,Yes,Yes,No,No
+http://data.sutton.gov.uk/toilets/suttonlibrary-sutton,Sutton Library,St Nicholas Way,Sutton,SM1 1EA,09:00,20:00,09:00,20:00,09:00,20:00,09:00,20:00,09:00,20:00,09:00,17:00,14:00,17:00,Yes,Yes,Yes,No,No,No
+http://data.sutton.gov.uk/toilets/timessquare-sutton,Times Square Shopping Centre,High Street,Sutton,SM1 1LF,09:00,17:30,09:00,17:30,09:00,17:30,09:00,20:00,09:00,17:30,09:00,18:00,10:30,16:30,Yes,Yes,Yes,Yes,Yes,No
+http://data.sutton.gov.uk/toilets/scill-sutton,Sutton Centre for Independent Living and Learning,3 Robin Hood Lane,Sutton,SM1 2SW,00:00,23:59,00:00,23:59,00:00,23:59,00:00,23:59,00:00,23:59,00:00,23:59,00:00,23:59,No,No,Yes,No,Yes,Yes
