@@ -56,7 +56,7 @@ helpers do
 end
 
 get '/' do
-  @first_layer = Layer.first(:order => :title)
+  @first_layer = Layer.first(:order => [:title])
   haml :layer, :layout => :map, :locals => { :first_layer => @first_layer }
 end
 
