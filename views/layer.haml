@@ -18,7 +18,7 @@
 
   #buttons
     %ul{ :style => "list-style-type: none; list-style-position: outside; margin: 0; padding: 5px 0; width: 100%;"}
-      - for layer in Layer.all :order => 'title'
+      - for layer in Layer.all :order => ['title']
         %li{ :id => "button-#{layer.slug}", :onclick => "loadLayer('#{layer.slug}'); return false;", :style => "background-image: url('#{'/icons/' + layer.icon}'); background-repeat: no-repeat; background-position: 80% 0%; height: 40px; width: 100%; line-height: 2.8em;"}
           = layer.title
           -#
