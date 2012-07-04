@@ -137,3 +137,32 @@ get '/maps/:slug.kml' do
     end  
   end
 end
+
+get '/maps/:slug.rss' do
+  @layer = Layer.first(:slug => params[:slug])
+  headers "Content-Disposition" => "inline", "Content-Type" => "application/rss+xml"
+
+  xml = Builder::XmlMarkup.new( :indent => 2 )
+  
+  # Output the XML prologue
+  xml.instruct!
+  
+  xml.rss :version => "2.0", :"xmlns:georss" => "http://www.georss.org/georss"  do
+    xml.channel do
+  
+      xml.title "#{@layer.title} in Sutton"
+      xml.link base_url
+      xml.description
+  
+      for place in @layer.places
+        xml.item do
+        
+          xml.title place.title
+          xml.link "#"
+          xml.description [ place.address, place.phone, place.description ].compact.join("<br /><br />")
+          xml.georss :point, "#{place.lng} #{place.lat}"
+        end
+      end
+    end  
+  end
+end
