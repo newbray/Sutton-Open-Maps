@@ -160,7 +160,7 @@ get '/maps/:slug.rss' do
           xml.title place.title
           xml.link "#"
           xml.description [ place.address, place.phone, place.description ].compact.join("<br /><br />")
-          xml.georss :point, "#{place.lng} #{place.lat}"
+          xml.georss :point, "#{place.lat} #{place.lng}"
         end
       end
     end  
