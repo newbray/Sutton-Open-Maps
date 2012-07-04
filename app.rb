@@ -116,7 +116,7 @@ get '/maps/:slug.kml' do
       end
   
 
-      for place in @layer.places
+      @layer.places.each do |place|
   
         xml.Placemark do
         
@@ -154,12 +154,12 @@ get '/maps/:slug.rss' do
       xml.link base_url
       xml.description
   
-      for place in @layer.places
+      @layer.places.each do |place|
         xml.item do
         
           xml.title place.title
           xml.link "#"
-          xml.description [ place.address, place.phone, place.description ].compact.join("<br /><br />")
+          xml.description [ place.address, place.phone, place.description ].compact.join("\n")
           xml.georss :point, "#{place.lat} #{place.lng}"
         end
       end
