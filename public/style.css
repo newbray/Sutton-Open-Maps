@@ -146,6 +146,10 @@ strong
   color: #000;
 }
 
+a strong {
+  color: #fff;
+}
+
 .strong
 {
   color: #000;
