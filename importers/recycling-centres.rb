@@ -1,5 +1,5 @@
-require 'app'
-require 'fastercsv'
+require_relative '../app'
+require 'csv'
 
 # Before running this script with a CSV file, prepare it so:
 #   - There is only a single line of column headings on the first line of the file
@@ -17,7 +17,7 @@ end
 layer = Layer.first_or_create :title => "Recycling Centres", :slug => 'recycling-centres', :icon => 'recycle.png'
 columns = {}
 
-FasterCSV.foreach(ARGV[0]) do |row|
+CSV.foreach(ARGV[0]) do |row|
 
   count += 1
   
