@@ -1,6 +1,6 @@
-require 'app'
-require 'fastercsv'
-require 'pat'
+require_relative '../app'
+require 'csv'
+# require 'pat'
 
 # Before running this script with a CSV file, prepare it so:
 #   - There is only a single line of column headings on the first line of the file
@@ -21,7 +21,7 @@ columns = {}
 @days = %w[ mon tue wed thu fri sat sun ]
 @facilities = [ 'Male', 'Female', 'Disabled', 'Baby Changing', 'RADAR Key', 'Changing Places' ]
 
-FasterCSV.foreach(ARGV[0]) do |row|
+CSV.foreach(ARGV[0]) do |row|
 
   count += 1
   
@@ -66,7 +66,7 @@ FasterCSV.foreach(ARGV[0]) do |row|
 
     desc += "</table>"
 
-    place = Place.first('title' => row[columns['Premises']])
+    place = Place.first('title' => row[columns['Premises']], 'layer' => layer)
 
     place.description = desc
     
