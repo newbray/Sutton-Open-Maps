@@ -7,7 +7,7 @@ function loadLayer(slug) {
   $("#button-" + slug).addClass('selected');
   
   var myOptions = {
-    zoom: 13,
+    zoom: 16,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
   
@@ -107,7 +107,12 @@ function loadLayer(slug) {
         bounds.extend(ll);
       });
 
-      map.fitBounds(bounds);
+      // Display the map zoomed and centred on the user's location if we have it, otherwise zoom out to include all the POIs
+      if (typeof user_ll != 'undefined') {
+        map.setCenter(user_ll);
+      } else {
+        map.fitBounds(bounds);
+      }
     }
   );
 
