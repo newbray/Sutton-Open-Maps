@@ -2,6 +2,7 @@ require_relative '../app'
 require 'csv'
 require 'pp'
 require 'open-uri' # For URL encoding
+require 'htmlentities'
 
 # Before running this script with a CSV file, prepare it so:
 #   - There is only a single line of column headings on the first line of the file
@@ -40,9 +41,12 @@ CSV.foreach(ARGV[0]) do |row|
 
       p row
       
-      road_clean = row[columns['Road']].downcase.gsub(/\w+/) { |s| s.capitalize } # capitalize first letter of each word
+      road_clean = row[columns['Road']].strip.downcase.gsub(/\w+/) { |s| s.capitalize } # capitalize first letter of each word
       report_it_url = "http://reportit.sutton.gov.uk/arsys/shared/ri_login.jsp"
-      twitter_url = URI::encode("https://twitter.com/intent/tweet?text=@SuttonGrit Please refill grit bin #{row[columns['GritBinID']]} at #{road_clean} #{row[columns['Location']]} /via http://suttonmaps.heroku.com/&related=adrianshort,Suttononline")
+      
+      coder = HTMLEntities.new
+      tweet_text = "https://twitter.com/intent/tweet?text=@SuttonGrit Please refill grit bin #{row[columns['GritBinID']]} at #{road_clean} #{row[columns['Location']]} /via http://suttonmaps.heroku.com/&related=adrianshort,Suttononline"
+      twitter_url = URI::encode(coder.encode(tweet_text, :basic, :decimal))
   
       place = Place.first_or_new(
 #         http://bhanu.blogspot.co.uk/2007/03/capitalizing-first-letter-of-each-word.html
