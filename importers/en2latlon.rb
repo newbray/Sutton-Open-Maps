@@ -6,6 +6,9 @@ require_relative './OSGB36'
 
 lines = CSV.read(ARGV[0]) # read the whole file into an array of arrays
 
+easting_col = nil
+northing_col = nil
+
 (0..lines.size - 1).each do |i|
   if i == 0
     easting_col = lines[i].index("X")
