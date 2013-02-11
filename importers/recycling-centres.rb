@@ -43,7 +43,9 @@ CSV.foreach(ARGV[0]) do |row|
       bit.strip!
     end
     
-    description = row[columns['description']].gsub("&lt;", "<").gsub("&gt;", ">")
+    materials = row[columns['Recycle']].split(/\,\s*/)
+    materials.map { |m| m.strip! }
+    description = materials.sort.join("<br />")
 
     place = Place.first_or_new(
       'title' =>        bits[0],
