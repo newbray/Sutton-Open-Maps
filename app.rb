@@ -50,9 +50,12 @@ helpers do
   end
 end
 
-get '/' do
-  @first_layer = Layer.first(:order => [:title])
-  haml :layer, :layout => :map, :locals => { :first_layer => @first_layer }
+get '/places/:id' do
+  if @place = Place.get(params[:id])
+    haml :place
+  else
+    404
+  end
 end
 
 get '/data' do
@@ -159,12 +162,17 @@ get '/maps/:slug.rss' do
         xml.item do
         
           xml.title place.title
-          xml.link base_url + "/#"
+          xml.link "%s/places/%s" % [ base_url, place.id ]
           xml.description [ place.address, place.phone, place.description ].compact.join("\n")
           xml.georss :point, "#{place.lat} #{place.lng}"
           xml.guid "%s/places/%s" % [ base_url, place.id ]
         end
       end
     end  
+  end
+  
+  get '/' do
+    @first_layer = Layer.first(:order => [:title])
+    haml :layer, :layout => :map, :locals => { :first_layer => @first_layer }
   end
 end
