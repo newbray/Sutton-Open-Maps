@@ -142,25 +142,27 @@ get '/maps/:slug.rss' do
   @layer = Layer.first(:slug => params[:slug])
   headers "Content-Disposition" => "inline", "Content-Type" => "application/rss+xml"
 
-  xml = Builder::XmlMarkup.new( :indent => 2 )
+  xml = Builder::XmlMarkup.new(:indent => 2)
   
   # Output the XML prologue
   xml.instruct!
   
-  xml.rss :version => "2.0", :xmlns => "http://www.w3.org/2005/Atom", :"xmlns:georss" => "http://www.georss.org/georss"  do
+  xml.rss :version => "2.0", :"xmlns:atom" => "http://www.w3.org/2005/Atom", :"xmlns:georss" => "http://www.georss.org/georss" do
     xml.channel do
   
       xml.title "#{@layer.title} in Sutton"
       xml.link base_url
       xml.description
+      # xml.link :href => "#", :rel => "self", :type => "application/rss+xml" # http://stackoverflow.com/a/9899827/1143712
   
       @layer.places.each do |place|
         xml.item do
         
           xml.title place.title
-          xml.link "#"
+          xml.link base_url + "/#"
           xml.description [ place.address, place.phone, place.description ].compact.join("\n")
           xml.georss :point, "#{place.lat} #{place.lng}"
+          xml.guid "%s/places/%s" % [ base_url, place.id ]
         end
       end
     end  
