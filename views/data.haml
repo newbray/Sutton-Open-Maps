@@ -1,20 +1,37 @@
 %table
-  - for layer in @layers
+  %thead
     %tr
-      %td= layer.title
+      %th
+      %th
+      %th
+      %th
+      %th
+      %th places
+  %tbody
+    - for layer in @layers
+      %tr
+        %td= layer.title
+        %td
+          %a{ :href => "maps/#{layer.slug}.json" }
+            JSON
+        %td
+          %a{ :href => "maps/#{layer.slug}.xml" }
+            XML
+        %td
+          %a{ :href => "maps/#{layer.slug}.kml" }
+            KML (Google Earth)
+        %td
+          %a{ :href => "maps/#{layer.slug}.rss" }
+            GeoRSS
+        %td.right= layer.places.size
+  %tfoot
+    %tr
       %td
-        %a{ :href => "maps/#{layer.slug}.json" }
-          JSON
       %td
-        %a{ :href => "maps/#{layer.slug}.xml" }
-          XML
       %td
-        %a{ :href => "maps/#{layer.slug}.kml" }
-          KML (Google Earth)
       %td
-        %a{ :href => "maps/#{layer.slug}.rss" }
-          GeoRSS
-
+      %td
+      %td.right= Place.count
 %p
   %a{ :href => '/' }
     &laquo; Back to the map
