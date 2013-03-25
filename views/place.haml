@@ -1,16 +1,11 @@
-!!!5
-%html
-	%head
-		%title Sutton Open Maps
-	%body
-		%p= @place.layer.title
-		%h1= @place.title
-		%p= @place.address
-		%p= @place.description
+%p= @place.layer.title
+%h1= @place.title
+%p= @place.address
+%p= @place.description
 
-		- unless @place.url.nil?
-			%p
-				%a{ :href => @place.url }
-					= @place.title
+- unless @place.url.nil?
+	%p
+		%a{ :href => @place.url }
+			= @place.title
 
-		<iframe width="320" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?q=#{@place.lat},#{@place.lng}&amp;z=14&amp;&amp;output=embed"></iframe>
+<iframe width="320" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?q=#{@place.lat},#{@place.lng}&amp;z=14&amp;&amp;output=embed"></iframe>
