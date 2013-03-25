@@ -60,7 +60,7 @@ end
 
 get '/data' do
   @layers = Layer.all(:order => [:title])
-  haml :data, :layout => :static
+  haml :data
 end
 
 # get '/maps/:slug.csv' do
